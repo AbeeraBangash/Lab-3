@@ -1,0 +1,92 @@
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* Cards container */
+.cards {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* Common styling for all cards */
+.card1,
+.card2,
+.card3 {
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    padding: 20px;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Card 1 */
+.card1 {
+    background-color: #f5f5f5;
+}
+
+
+/* Card 2 */
+.card2 {
+    background-color: #f5f5f5;
+}
+
+
+/* Card 3 */
+.card3 {
+    background-color: #f5f5f5;
+}
+
+
+/* Card images */
+.card1 img,
+.card2 img,
+.card3 img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+
+/* Card headings */
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+
+/* Card paragraphs */
+.card1 p,
+.card2 p,
+.card3 p {
+    font-size: 15px;
+    line-height: 1.5;
+}
